@@ -1,0 +1,97 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  text-align: center;
+}
+.Page {
+  /* height: 140vh; */
+  background: white;
+}
+.App__ThemeIcon-Container {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  border-radius: 50%;
+  /* border: 2px solid #29263e; */
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+}
+.App__ThemeIcon {
+  height: 24px;
+  width: 24px;
+  background: white;
+  position: relative;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.3s all ease-in;
+  background: yellow;
+}
+.App__ThemeIcon:before {
+}
+.App__ThemeIcon:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: -4px;
+  border-radius: 50%;
+}
+
+.App__ThemeIcon.theme-night {
+  background: white;
+  border: 2px solid #29263e;
+}
+.App__ThemeIcon:before {
+  transform: translate(-15px, 15px);
+  background: #29263e;
+  content: "";
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  position: absolute;
+  left: 19px;
+  bottom: 19px;
+}
+.App__ThemeIcon.theme-night:after {
+  content: "";
+  position: absolute;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: -4px;
+  border-radius: 50%;
+}
+.App__ThemeIcon.theme-day {
+  content: "";
+  border-radius: 50%;
+  background: #ffd048;
+  border: 2px solid #ffa62f;
+}
+.App__ThemeIcon.theme-day:before {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  left: -18px;
+  bottom: -18px;
+  background-color: #fff;
+}
+.App__ThemeIcon.theme-day:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: -4px;
+  border-radius: 50%;
+}
+
+.dark-text {
+  color: black;
+}

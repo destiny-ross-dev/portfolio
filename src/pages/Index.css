@@ -1,0 +1,60 @@
+.ContentContainer {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: fit-content;
+}
+.CardsContainer {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.row2 {
+  width: 100%;
+}
+.SummaryContainer {
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+.Summary {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  flex-grow: 1;
+}
+.Summary p {
+  width: 80%;
+}
+.PillContainer {
+  width: 350px;
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.PillContainer h2 {
+  width: 100%;
+  text-align: start;
+}
+.Pill {
+  background-color: #29263e;
+  border-radius: 16px;
+  height: fit-content;
+  padding: 5px 10px;
+  margin: 5px 5px;
+  color: white;
+}
+.Pill h3 {
+  margin: 0;
+  font-size: 12px;
+}
