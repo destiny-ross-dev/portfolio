@@ -1,5 +1,11 @@
 .Footer {
-  background: #f3f3f3;
   width: 100vw;
   height: 15vh;
+}
+.theme-night .Footer {
+  background: #29263e;
+  color: white;
+}
+.theme-day .Footer {
+  background: #f6f6f6;
 }

@@ -34,10 +34,12 @@
 .theme-night {
   background: #29263e;
   color: white;
+  transition: color 0s;
 }
 .theme-day {
   background: white;
   color: black;
+  transition: color 0s;
 }
 
 .theme-day a {

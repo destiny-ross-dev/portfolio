@@ -5,6 +5,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   height: fit-content;
+  transition: all 0s ease-in;
 }
 .CardsContainer {
   width: 800px;
@@ -30,16 +31,25 @@
   flex-direction: column;
   text-align: start;
   flex-grow: 1;
+  line-height: 25px;
+  /* font-size: 12px; */
 }
 .Summary p {
-  width: 80%;
+  width: 85%;
+  font-size: 12px;
+}
+
+.Summary__Link {
+  text-decoration: none;
+}
+.Summary__Link:hover {
+  border: none;
 }
 .PillContainer {
   width: 350px;
   display: flex;
-
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .PillContainer h2 {
@@ -47,12 +57,25 @@
   text-align: start;
 }
 .Pill {
-  background-color: #29263e;
+  background-color: #82bbcf;
   border-radius: 16px;
   height: fit-content;
   padding: 5px 10px;
-  margin: 5px 5px;
+  margin: 3px 3px;
   color: white;
+}
+.theme-night .Pill {
+  background-color: white;
+  color: black;
+}
+.Pill:hover {
+  background: #82bbcf;
+  cursor: pointer;
+}
+.theme-night .Pill:hover {
+  background-color: white;
+  color: #82bbcf;
+  box-sizing: border-box;
 }
 .Pill h3 {
   margin: 0;

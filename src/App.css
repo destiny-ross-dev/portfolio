@@ -6,8 +6,9 @@
 }
 .Page {
   /* height: 140vh; */
-  background: white;
+  /* background: white; */
 }
+
 .App__ThemeIcon-Container {
   position: fixed;
   right: 20px;
@@ -28,6 +29,9 @@
   transition: 0.3s all ease-in;
   background: yellow;
 }
+.App__ThemeIcon:hover {
+  transform: scale(1.2);
+}
 .App__ThemeIcon:before {
 }
 .App__ThemeIcon:after {
@@ -45,6 +49,10 @@
   background: white;
   border: 2px solid #29263e;
 }
+.App__ThemeIcon.theme-night:hover {
+  background: lightgrey;
+  border: 2px solid #29263e;
+}
 .App__ThemeIcon:before {
   transform: translate(-15px, 15px);
   background: #29263e;
@@ -56,10 +64,9 @@
   left: 19px;
   bottom: 19px;
 }
-.App__ThemeIcon.theme-night:after {
+.theme-night .App__ThemeIcon:after {
   content: "";
   position: absolute;
-
   top: 0;
   right: 0;
   bottom: 0;
@@ -93,5 +100,6 @@
 }
 
 .dark-text {
+  transition: color 0s;
   color: black;
 }
