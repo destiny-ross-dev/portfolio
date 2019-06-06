@@ -17,8 +17,5 @@ code {
 *:before {
   box-sizing: border-box;
   transition: 0.3s all ease-in-out;
-}
-p,
-h1 {
-  transition: 0s all ease-in;
+  transition: 0.05s color ease-in;
 }

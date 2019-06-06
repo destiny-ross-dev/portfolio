@@ -7,7 +7,8 @@ import Footer from "./components/Footer/Footer";
 import "./App.css";
 import routes from "./routes";
 
-function App() {
+function App(props) {
+  console.log(props);
   const [theme, setTheme] = useState("theme-night");
   const changeTheme = () => {
     let currentTheme = theme;

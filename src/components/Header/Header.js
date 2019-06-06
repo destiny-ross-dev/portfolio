@@ -7,7 +7,7 @@ function Header() {
     <div className="Header">
       <h1 className="Header__title">
         Hey, I'm{" "}
-        <Link to="/" className="Header__Navigation-Item">
+        <Link exact to="/" className="Header__Navigation-Item">
           Destiny
         </Link>
       </h1>
@@ -20,7 +20,7 @@ function Header() {
           About
         </Link>
         <Link
-          to="/portfolio"
+          to="/projects"
           className="Header__Navigation-Item"
           activeClassName="active"
         >

@@ -26,8 +26,8 @@
 }
 
 .Header__Navigation-Item.active {
-  border-bottom: 2px solid #82bbcf;
-  color: #82bbcf;
+  /* border-bottom: 2px solid #82bbcf; */
+  color: #3e8eab;
   padding-bottom: 1px;
 }
 
@@ -50,6 +50,12 @@
   cursor: pointer;
 }
 .theme-night a:hover {
+  color: #3e8eab;
+  border-bottom: 2px solid #3e8eab;
+  transition: 0.2s ease-in-out;
+}
+
+.theme-day a:hover {
   color: #3e8eab;
   border-bottom: 2px solid #3e8eab;
   transition: 0.2s ease-in-out;

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ContentCards from "../components/ContentCards/ContentCards";
+import ContentCards from "../../components/ContentCards/ContentCards";
 import { Link } from "react-router-dom";
 import "./Index.css";
 function Pill({ text }) {
@@ -25,11 +25,11 @@ function IndexPage() {
             <h2>Hello, There</h2>
             <p>
               Coming from a world of anthropology and international development,
-              I have a passion for accessible people-center design. Whether its
-              creating stunning visualizations or performant websites, you're in
+              I have a passion for accessible people-centered design. Whether
+              you need stunning visualizations or performant websites, you're in
               good hands. Read my resume{" "}
               <Link className="Summary__Link" to="/resume">
-                here
+                here.
               </Link>
             </p>
           </div>
