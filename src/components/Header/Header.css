@@ -1,7 +1,7 @@
 .Header {
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
 }
 
 .Header__title {
@@ -12,6 +12,7 @@
   display: flex;
   justify-content: space-between;
   width: 60vw;
+  min-width: 280px;
   max-width: 450px;
   margin: 0 auto 5vh auto;
 }

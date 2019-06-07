@@ -19,3 +19,6 @@ code {
   transition: 0.3s all ease-in-out;
   transition: 0.05s color ease-in;
 }
+#root {
+  width: 100vw;
+}

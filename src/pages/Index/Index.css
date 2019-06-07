@@ -1,5 +1,6 @@
 .ContentContainer {
-  width: 900px;
+  width: 90%;
+  padding: 0 auto;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -7,7 +8,7 @@
   height: fit-content;
 }
 .CardsContainer {
-  width: 800px;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -19,7 +20,7 @@
   width: 100%;
 }
 .SummaryContainer {
-  width: 800px;
+  width: 90%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -36,7 +37,7 @@
 }
 
 .Summary p {
-  width: 90%;
+  width: 95%;
   font-size: 14px;
   letter-spacing: 1px;
 }
@@ -55,6 +56,12 @@
   align-items: center;
   height: fit-content;
 }
+
+@media only screen and (max-width: 420px) {
+  .PillContainer {
+    justify-content: flex-start;
+  }
+}
 .PillContainer h2 {
   width: 100%;
   text-align: start;
@@ -64,7 +71,7 @@
   border-radius: 16px;
   height: fit-content;
   padding: 5px 10px;
-  margin: 3px 3px;
+  margin: 3px 2px;
   color: white;
 }
 .theme-night .Pill {

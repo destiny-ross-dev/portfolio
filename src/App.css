@@ -5,6 +5,7 @@
   text-align: center;
   min-height: 100vh;
 }
+
 .Page {
   /* height: 140vh; */
   flex-grow: 1;
@@ -21,6 +22,14 @@
   height: 24px;
   width: 24px;
   overflow: hidden;
+}
+
+@media only screen and (max-width: 420px) {
+  .App__ThemeIcon-Container {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
 }
 .App__ThemeIcon {
   height: 24px;

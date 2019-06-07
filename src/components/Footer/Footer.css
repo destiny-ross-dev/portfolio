@@ -16,12 +16,13 @@
 .Footer-Contents {
   padding: 30px 0;
   margin: 0 auto;
-  width: 800px;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   text-align: start;
   font-family: "Open Sans";
   color: #d0d0d0;
+  flex-wrap: wrap;
 }
 .Footer a {
   text-decoration: none;
@@ -43,11 +44,24 @@
 .Footer-Right {
   width: 40%;
 }
+
 .Footer-Copyright {
   font-size: 12px;
 }
 .LinksContainer {
+  min-width: 100px;
   width: 20%;
   display: flex;
   justify-content: space-between;
+}
+@media only screen and (max-width: 420px) {
+  .Footer-Left {
+    width: 90%;
+  }
+  .Footer-Right {
+    width: 90%;
+  }
+  .Footer-Right h3 {
+    display: none;
+  }
 }
