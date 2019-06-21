@@ -1,0 +1,45 @@
+.Placeholder {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height:100vh;
+    padding-bottom:10vh;
+    /* color:#82bbcf; */
+    /* border:1px solid white; */
+    /* background:white; */
+}
+.Placeholder h1 {
+    font-size:64px;
+}
+.Placeholder h3 {
+    font-size:36px;
+    width:70%;
+    margin:4vh auto;
+}
+
+.Placeholder i {
+    font-size:72px;
+    /* color:white; */
+    margin:2vh 3vw;
+}
+
+.Placeholder a:hover {
+    border:none;
+    transition:0s all;
+}
+
+.Placeholder a:hover i {
+ 
+}
+
+.theme-day i {
+    /* color:#29263e; */
+}
+
+.theme-night .Placeholder i {
+    color:white;
+}
+.theme-night .Placeholder a:hover i {
+    color:#82bbcf;
+}

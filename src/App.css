@@ -4,6 +4,7 @@
   width: 100vw;
   text-align: center;
   min-height: 100vh;
+
 }
 
 .Page {
@@ -38,7 +39,7 @@
   position: relative;
   cursor: pointer;
   border-radius: 50%;
-  transition: 0.3s all ease-in;
+  transition: .6s all ease-in;
   background: yellow;
 }
 .App__ThemeIcon:hover {

@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 
 import "./App.css";
 import routes from "./routes";
+// import Placeholder from "./components/Placeholder";
 
 function App(props) {
   console.log(props);
@@ -23,6 +24,7 @@ function App(props) {
       <div className="App__ThemeIcon-Container">
         <div onClick={changeTheme} className={`App__ThemeIcon ${theme}`} />
       </div>
+      {/* <Placeholder/> */}
       <Header />
       {routes}
       <Footer />
