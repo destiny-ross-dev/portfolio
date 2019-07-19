@@ -15,6 +15,21 @@ function Blog() {
         />
         <BlogPost
           backgroundThumbnail="https://i.imgur.com/xO8k5BK.png"
+          small
+          title="React, GraphQL, Apollo"
+          category="Frontend"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec diam ex. Vestibulum ante ipsum primis in faucibus orci."
+        />
+        <BlogPost
+          backgroundThumbnail="https://i.imgur.com/xO8k5BK.png"
+          small
+          title="React, GraphQL, Apollo"
+          category="Frontend"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec diam ex. Vestibulum ante ipsum primis in faucibus orci."
+        />
+        <BlogPost
+          backgroundThumbnail="https://i.imgur.com/xO8k5BK.png"
+          small
           title="React, GraphQL, Apollo"
           category="Frontend"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec diam ex. Vestibulum ante ipsum primis in faucibus orci."

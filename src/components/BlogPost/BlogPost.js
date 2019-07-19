@@ -1,9 +1,15 @@
 import React from "react";
 import "./BlogPost.css";
 
-const BlogPost = ({ backgroundThumbnail, category, title, description }) => {
+const BlogPost = ({
+  backgroundThumbnail,
+  category,
+  title,
+  small,
+  description
+}) => {
   return (
-    <div className="BlogPost">
+    <div className={`BlogPost ${small && "small"}`}>
       <div
         className="BlogPost__Thumbnail"
         style={{
@@ -18,7 +24,6 @@ const BlogPost = ({ backgroundThumbnail, category, title, description }) => {
         <p>{description}</p>
 
         <div className="BlogPost__Meta">
-          <i class="fal fa-bookmark" />
           <h3>5 minute read</h3>
         </div>
       </div>

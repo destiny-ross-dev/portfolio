@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ContentCards from "../../components/ContentCards/ContentCards";
 import { Link } from "react-router-dom";
 import "./Index.css";
+import coven from "../../assets/crwn-ss.png";
 function Pill({ text }) {
   return (
     <div className="Pill dark-text">
@@ -16,9 +17,7 @@ function IndexPage() {
       <div className="ContentContainer">
         <div className="CardsContainer">
           <ContentCards />
-          <ContentCards />
-          <ContentCards />
-          <ContentCards />
+          <ContentCards thumbnail={coven} />
         </div>
         <div className="SummaryContainer">
           <div className="Summary">

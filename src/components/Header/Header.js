@@ -33,13 +33,6 @@ function Header() {
         >
           Blog
         </Link>
-        <Link
-          to="/contact"
-          className="Header__Navigation-Item"
-          activeClassName="active"
-        >
-          Contact
-        </Link>
       </nav>
     </div>
   );
