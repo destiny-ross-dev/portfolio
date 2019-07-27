@@ -1,7 +1,7 @@
 import React from "react";
-import "./BlogPost.css";
+import "./BlogPostCard.css";
 
-const BlogPost = ({
+const BlogPostCard = ({
   backgroundThumbnail,
   category,
   title,
@@ -31,4 +31,4 @@ const BlogPost = ({
   );
 };
 
-export default BlogPost;
+export default BlogPostCard;

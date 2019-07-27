@@ -11,6 +11,7 @@
 
 .ContentCards img {
     min-height: 250px;
+    height: 275px;
     max-width: 100%;
     width: 100%;
     border-top-left-radius: 7px;
@@ -18,7 +19,7 @@
 }
 
 .ContentCards h2 {
-    margin: 10px 0;
+    margin: 10px 0 5px 0;
     font-size: 18px;
     font-weight: bold;
 }
@@ -27,6 +28,6 @@
     color: grey;
     font-size: 12px;
     font-weight: 400;
-    width: 90%;
-    margin: 15px auto;
+    width: 75%;
+    margin: 5px auto 15px auto;
 }

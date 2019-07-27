@@ -3,6 +3,7 @@ import ContentCards from "../../components/ContentCards/ContentCards";
 import { Link } from "react-router-dom";
 import "./Index.css";
 import coven from "../../assets/crwn-ss.png";
+import hackernews from "../../assets/hacker-news-ss.png";
 function Pill({ text }) {
   return (
     <div className="Pill dark-text">
@@ -16,8 +17,20 @@ function IndexPage() {
     <div className="Page IndexPage">
       <div className="ContentContainer">
         <div className="CardsContainer">
-          <ContentCards />
-          <ContentCards thumbnail={coven} />
+          {/* <ContentCards
+            descriptionText="E-Commerce site built with React + Redux, Express, Postgres and Node.
+        Stripe integration for payment processing."
+          /> */}
+          <ContentCards 
+            projectName="Hackernews Clone" 
+            thumbnail={hackernews} 
+            descriptionText="A fully-featured Hackernews clone built with React, GraphQL, Apollo Client, and Prisma"/>
+          <ContentCards
+            projectName="Crwn Clothing E-Commerce"
+            descriptionText="E-Commerce site built with React + Redux, Express, Firebase and Node.
+        Stripe integration for payment processing."
+            thumbnail={coven}
+          />
         </div>
         <div className="SummaryContainer">
           <div className="Summary">
