@@ -13,7 +13,9 @@ const BlogPostCard = ({
       <div
         className="BlogPost__Thumbnail"
         style={{
-          backgroundImage: `url(${backgroundThumbnail})`
+          backgroundImage: `url(
+            "https://www.bacancytechnology.com/blog/wp-content/uploads/2018/07/Structure-Your-React-Redux-banner.png"
+          )`
         }}
       >
         <div className="BlogPost__Thumbnail--opacity" />

@@ -19,12 +19,13 @@
 }
 
 .BlogPost__Thumbnail {
-    height: auto;
-    width: 60%;
+    height: 250px;
+    /* width: 100%; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    flex: 1 1 auto;
+    background-size: 100%;
+    /* flex: 1 1 auto; */
     border-radius: 5px 0 0 5px;
     /* border-right: 1px solid black; */
     position: relative;
@@ -44,7 +45,8 @@
 }
 
 .BlogPost__Description {
-    flex: 1 1 450px;
+    height: 100px;
+    flex: 1 1 200px;
     padding: 15px 40px 15px 40px;
     display: flex;
     justify-content: space-between;
@@ -53,7 +55,7 @@
 }
 
 .small .BlogPost__Description {
-    flex: 1 1 100%;
+    flex: 1 1 80%;
 }
 
 .BlogPost__Description h3 {

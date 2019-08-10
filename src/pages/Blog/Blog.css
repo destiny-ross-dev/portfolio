@@ -3,4 +3,9 @@
     height: 25%;
     margin: 0 auto;
 
+
+}
+
+.BlogPage a {
+    text-decoration: none;
 }
