@@ -10,7 +10,7 @@ import routes from "./routes";
 function App(props) {
   console.log(props);
   const [theme, setTheme] = useState("theme-night");
-  const [needsPlaceholder] = useState(true);
+  const [needsPlaceholder] = useState(false);
   const changeTheme = () => {
     let currentTheme = theme;
     let nextTheme = "";

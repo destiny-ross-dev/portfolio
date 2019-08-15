@@ -2,8 +2,11 @@ import React, { Component } from "react";
 import ContentCards from "../../components/ContentCards/ContentCards";
 import { Link } from "react-router-dom";
 import "./Index.css";
-import coven from "../../assets/crwn-ss.png";
+import crwn from "../../assets/crwn-ss.png";
 import hackernews from "../../assets/hacker-news-ss.png";
+import dapp from "../../assets/dapp-ss.png";
+import groots from "../../assets/grassroots.png";
+
 function Pill({ text }) {
   return (
     <div className="Pill dark-text">
@@ -21,15 +24,26 @@ function IndexPage() {
             descriptionText="E-Commerce site built with React + Redux, Express, Postgres and Node.
         Stripe integration for payment processing."
           /> */}
-          <ContentCards 
-            projectName="Hackernews Clone" 
-            thumbnail={hackernews} 
-            descriptionText="A fully-featured Hackernews clone built with React, GraphQL, Apollo Client, and Prisma"/>
+          <ContentCards
+            projectName="Hackernews Clone"
+            thumbnail={hackernews}
+            descriptionText="A fully-featured Hackernews clone built with React, GraphQL, Apollo Client, and Prisma"
+          />
           <ContentCards
             projectName="Crwn Clothing E-Commerce"
             descriptionText="E-Commerce site built with React + Redux, Express, Firebase and Node.
         Stripe integration for payment processing."
-            thumbnail={coven}
+            thumbnail={crwn}
+          />
+          <ContentCards
+            projectName="Debate Night D-App"
+            thumbnail={dapp}
+            descriptionText="A fully-featured Hackernews clone built with React, GraphQL, Apollo Client, and Prisma"
+          />
+          <ContentCards
+            projectName="Grassroots Field Management"
+            thumbnail={groots}
+            descriptionText="A fully-featured Hackernews clone built with React, GraphQL, Apollo Client, and Prisma"
           />
         </div>
         <div className="SummaryContainer">
